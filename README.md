@@ -1,0 +1,2 @@
+# QAScanner
+Read QR code
