@@ -1,2 +1,2 @@
-# QAScanner
-Read QR code
+# QAScannerExample
+A QR code reading example

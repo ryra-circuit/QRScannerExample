@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		17B7E428204D1EA70063B7B2 /* QRReaderExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRReaderExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17B7E428204D1EA70063B7B2 /* QRScannerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRScannerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17B7E42B204D1EA70063B7B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17B7E42D204D1EA70063B7B2 /* SelectorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectorVC.swift; sourceTree = "<group>"; };
 		17B7E430204D1EA70063B7B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -40,7 +40,7 @@
 		17B7E41F204D1EA70063B7B2 = {
 			isa = PBXGroup;
 			children = (
-				17B7E42A204D1EA70063B7B2 /* QRReaderExample */,
+				17B7E42A204D1EA70063B7B2 /* QRScannerExample */,
 				17B7E429204D1EA70063B7B2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,12 +48,12 @@
 		17B7E429204D1EA70063B7B2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				17B7E428204D1EA70063B7B2 /* QRReaderExample.app */,
+				17B7E428204D1EA70063B7B2 /* QRScannerExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		17B7E42A204D1EA70063B7B2 /* QRReaderExample */ = {
+		17B7E42A204D1EA70063B7B2 /* QRScannerExample */ = {
 			isa = PBXGroup;
 			children = (
 				606190F8240AC7A7006307B9 /* Application */,
@@ -61,7 +61,7 @@
 				606190FA240AC7C5006307B9 /* Storyboards */,
 				606190F9240AC7BC006307B9 /* VCs */,
 			);
-			path = QRReaderExample;
+			path = QRScannerExample;
 			sourceTree = "<group>";
 		};
 		606190F8240AC7A7006307B9 /* Application */ = {
@@ -102,9 +102,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		17B7E427204D1EA70063B7B2 /* QRReaderExample */ = {
+		17B7E427204D1EA70063B7B2 /* QRScannerExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 17B7E450204D1EA70063B7B2 /* Build configuration list for PBXNativeTarget "QRReaderExample" */;
+			buildConfigurationList = 17B7E450204D1EA70063B7B2 /* Build configuration list for PBXNativeTarget "QRScannerExample" */;
 			buildPhases = (
 				17B7E424204D1EA70063B7B2 /* Sources */,
 				17B7E425204D1EA70063B7B2 /* Frameworks */,
@@ -114,9 +114,9 @@
 			);
 			dependencies = (
 			);
-			name = QRReaderExample;
+			name = QRScannerExample;
 			productName = TestQRReader;
-			productReference = 17B7E428204D1EA70063B7B2 /* QRReaderExample.app */;
+			productReference = 17B7E428204D1EA70063B7B2 /* QRScannerExample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -135,7 +135,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 17B7E423204D1EA70063B7B2 /* Build configuration list for PBXProject "QRReaderExample" */;
+			buildConfigurationList = 17B7E423204D1EA70063B7B2 /* Build configuration list for PBXProject "QRScannerExample" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -148,7 +148,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				17B7E427204D1EA70063B7B2 /* QRReaderExample */,
+				17B7E427204D1EA70063B7B2 /* QRScannerExample */,
 			);
 		};
 /* End PBXProject section */
@@ -313,9 +313,9 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3HN8WQ4XK9;
-				INFOPLIST_FILE = "$(SRCROOT)/QRReaderExample/SupportFiles/Info.plist";
+				INFOPLIST_FILE = QRScannerExample/SupportFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ryra.QRReaderExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryra.QRScannerExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
@@ -330,9 +330,9 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3HN8WQ4XK9;
-				INFOPLIST_FILE = "$(SRCROOT)/QRReaderExample/SupportFiles/Info.plist";
+				INFOPLIST_FILE = QRScannerExample/SupportFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ryra.QRReaderExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryra.QRScannerExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
@@ -343,7 +343,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		17B7E423204D1EA70063B7B2 /* Build configuration list for PBXProject "QRReaderExample" */ = {
+		17B7E423204D1EA70063B7B2 /* Build configuration list for PBXProject "QRScannerExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				17B7E44E204D1EA70063B7B2 /* Debug */,
@@ -352,7 +352,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		17B7E450204D1EA70063B7B2 /* Build configuration list for PBXNativeTarget "QRReaderExample" */ = {
+		17B7E450204D1EA70063B7B2 /* Build configuration list for PBXNativeTarget "QRScannerExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				17B7E451204D1EA70063B7B2 /* Debug */,
